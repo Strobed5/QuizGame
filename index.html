@@ -16,7 +16,8 @@
           <h2 id="question-text">Question text</h2>
           <div class="quiz-info">
             <p>
-              Question <span id="current-question">1</span> of <span>5</span>
+              Question <span id="current-question">1</span> of
+              <span id="total-questions">5</span>
             </p>
             <p>Score <space id="score">0</space></p>
           </div>
@@ -29,11 +30,15 @@
       <div id="result-screen" class="screen">
         <h1>Quiz Results</h1>
         <div class="result-info">
-            <p>You scored <span id=final-score">0</span> out of <span id="max-score">5</span></p>
-            <div id="result-message">Good job!</div>
+          <p>
+            You scored <span id="final-score"></span> out of
+            <span id="max-score">5</span>
+          </p>
+          <div id="result-message">Good job!</div>
         </div>
-        <button id="restart">Restart Quiz</button>
+        <button id="restart-btn">Restart Quiz</button>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
